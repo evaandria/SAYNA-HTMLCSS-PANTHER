@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family: 'Panthera';
+    src: url('./font/Panthera/PantheraRegular-MVZ9J.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Beyno';
+    src: url('./font/beyno/BEYNO/BEYNO.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Wakanda forever';
+    src: url('./font/wakanda-4-ever-cufonfonts/Wakanda4Ever-gxg5p.ttf') format('truetype');
+}
+
+/*style généraux*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Panthera';
+    font-size: 68px;
+}
+
+h2 {
+    font-family: 'Beyno';
+    font-size: 32px;
+}
+body {
+    background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+    color: white;
+    font-family: 'cantarell';
+    font-size: 16px;
+    font-weight: 400;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/*design de la navigation*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+nav .lien ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+}
+.lien ul a {
+    color: white;
+    font-family: 'Beyno';
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+/*design de la partie en tête*/
+header {
+    background-image: url();
+}
+.content {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    text-align: justify;
+    width: 60%;
+    padding: 100px 40px;
+}
+.content p {
+    padding: 20px 0;
+    text-align: left;
+    font-size: 16px;
+}
+.voirplus a {
+    color: white;
+}
+
+
+
+
+
+
+
+

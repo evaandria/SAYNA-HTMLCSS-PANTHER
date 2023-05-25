@@ -9,33 +9,34 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="container">
             <a href="index.html">
                 <img src="./Illustrations + Logo-20230524T090234Z-001/Illustrations + Logo/All pages/icon_SAYNA.png">
                 <img src="./Illustrations + Logo-20230524T090234Z-001/Illustrations + Logo/All pages/icon_x.png">
                 <img src="./Illustrations + Logo-20230524T090234Z-001/Illustrations + Logo/All pages/icon_MARVEL.png">
             </a>
-            <ul>
-                <li>Accueil</li>
-                <li>WAKANDA</li>
-                <li>ENIGME</li>
-            </ul>
+            <div class="lien">
+                <ul>
+                    <li><a href="#index.html">Accueil</a></li>
+                    <li><a href="./wakanda/index.html">WAKANDA</a></li>
+                    <li><a href="./enigme/index.html">ENIGME</a></li>
+                </ul>
+            </div>
         </nav>
-        <section>
-            <div>
-                <h1>BLACK PANTHER</h1>
-                <h2>WAKANDA FOREVER</h2>
-                <div>
+        <section id="Panther">
+            <div class="container">
+                <div class="content">
+                    <h1>BLACK PANTHER</h1>
+                    <h2>WAKANDA FOREVER</h2>
                     <P>En plus d'être un film qui fait la part belle aux héroïnes, Black Panther rend
                        hommage aux cultures africaine et afro-américaine. On y évoque le
                        racisme, la colonisation et les violences contre les afro-américains.
                        Cefilm marque tout une génération,“c’est100%africain et c’est parfait”.
                     </P>
-                    <div>
+                    <div class="voirplus">
                         <a href="#">Voir plus ></a>
                     </div>
                 </div>
-                <img src="./Illustrations + Logo-20230524T090234Z-001/Illustrations + Logo/Accueil/Pantherhome1..png">
             </div>
         </section>
         <div>
@@ -206,19 +207,19 @@
             <p>Besoin de l’intervention du Wakanda ?</p>
             <h2>Contactez nous !</h2>
             <div>
-                <input type="name" name="name" placeholder="Nom">
-                <input type="email" name="email" placeholder="Email">
-                <input type="text" name="text" placeholder="Message">
-            </div>
-            <div>
-                <input type="submit" value="ENVOYER">
+                <form action="">
+                    <input type="name" name="name" placeholder="Nom">
+                    <input type="email" name="email" placeholder="Email">
+                    <textarea name="message" placeholder="Message" required></textarea>
+                    <input type="submit" value="ENVOYER">
+                </form>
             </div>
         </div>
       </section>
     </main>
     <footer>
         <div>
-            <a href="index.html">
+            <a href="#">
                 <img src="./Illustrations + Logo-20230524T090234Z-001/Illustrations + Logo/All pages/icon_SAYNA.png">
                 <img src="./Illustrations + Logo-20230524T090234Z-001/Illustrations + Logo/All pages/icon_x.png">
                 <img src="./Illustrations + Logo-20230524T090234Z-001/Illustrations + Logo/All pages/icon_MARVEL.png">
@@ -228,7 +229,7 @@
             <P>Pages</P>
             <div>
                 <a href="#">À propos</a>
-                <a href="#">Wakanda</a>
+                <a href="./wakanda/index.html">Wakanda</a>
             </div>
             <div>
                 <p>RETROUVEZ NOUS</p>
@@ -243,8 +244,10 @@
             </div>
             <div>
                 <a href="#">2022 Tout droits réservés</a>
-                <a href="#">Politique de confidentialité</a>
-                <a href="#">Conditions d'utilisation</a>
+                <ul>
+                   <li><a href="#">Politique de confidentialité</a></li>
+                   <li><a href="#">Conditions d'utilisation</a></li>
+                </ul>
             </div>
         </div>
     </footer>
