@@ -35,6 +35,32 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
+/*animation en css*/
+.lien a:hover {
+    text-decoration: underline;
+}
+.lien a:active {
+    color: violet;
+}
+.scroll a img:hover {
+    background-color: violet;
+}
+nav img:hover {
+    background-color: violet;
+}
+#formulaire .bouton:hover {
+    filter: drop-shadow(#021740);
+}
+.footer2 img:hover {
+    zoom: 10%;
+}
+.reseaux a img:hover {
+    zoom: 10%;
+}
+.lien-footer a:hover {
+    text-decoration: underline;
+}
+
 /*design de la navigation*/
 .container {
     width: 80%;
@@ -93,13 +119,221 @@ ul {
 .scroll img {
     margin: 20px;
 }
+
 /*design du barre bleu*/
-#bande .parent {
+
+#bande .texte {
+    text-align: justify;
+    width: 35%;
+    padding: 20px;
+    font-size: 15px;
+}
+.texte h2 {
+    padding-bottom: 10px;
+}
+#barre {
     display: flex;
     justify-content: center;
-    background-color: #07338C;
-    height: 300px;
+    background-color: #07338c;
+    margin-left: 350px;
+    margin-top: -20px;
 }
+.box {
+    float: left;
+    margin-right: 15px;
+    width: 50px;
+    height: 25px;
+    margin-top: -40px;
+}
+.box .image1 {
+    width: 350px;
+}
+/*design du corps*/
+.contenue {
+    column-count: 2;
+    column-width: 50%;
+    margin-bottom: 20px;
+}
+#corps .corps-texte {
+    padding: 20px;
+    text-align: justify;
+    margin: 20px 0;
+}
+.corps-texte h2 {
+    padding-bottom: 10px;
+}
+.corps-texte p {
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.bloc {
+    width: 65%;
+    padding: 100px 40px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+.bloc h2 {
+    padding-top: 150px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'cantarell';
+}
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #3d2da6;
+    padding: 10px;
+    border-radius: 5px;
+}
+.info {
+    padding-top: 20px;
+    font-size: 15px;
+}
+.info p {
+    padding: 5px 0;
+}
+.box2 {
+    float: left;
+    margin-left: 65px;
+    width: 50px;
+    height: 25px;
+    margin-top: -300px;
+}
+#corps {
+    margin-bottom: 100px 300px;
+}
+/*design du formulaire*/
+#formulaire {
+    background-image: url(../Illustration/Logos/Accueil/Pantherhome7.png);
+    height: 800px;
+    text-align: center;
+    padding: 50px 200px;
+}
+#formulaire .form-tour {
+    background: linear-gradient(80deg,rgba(230, 223, 223, 0.623),rgba(139, 137, 137, 0.582));
+    border-radius: 60px;
+    width: 80%;
+    margin: 100px;
+    padding: 20px;
+    color: #07338c;
+}
+.form-tour h2 {
+    font-family: 'cantarell';
+    color: #021740;
+}
+.form-tour p {
+    font-size: 14px;
+}
+/*design du input*/
+#input {
+    background-color: transparent;
+    border-radius: 38px;
+    border: 1px solid #07338c;
+    width: 520px;
+    height: 56px;
+    padding: 20px;
+    margin: 10px;
+}
+textarea {
+    background-color: transparent;
+    border-radius: 38px;
+    border: 1px solid #07338c;
+    width: 520px;
+    height: 120px;
+    padding: 20px;
+    margin: 10px;
+}
+::placeholder {
+    color: #07338c;
+    font-size: 15px;
+}
+#formulaire .bouton {
+    width: 147px;
+    height: 54px;
+    border-radius: 38px;
+    color: #07338c;
+    border: none;
+    cursor: pointer;
+}
+/*design du footer*/
+footer {
+    background: linear-gradient(180deg, #3d2da6 0%, #021740 90.43%);
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#pages-footer {
+    display: flex;
+    justify-content: center;
+}
+#pages-footer .display-int {
+    display: flex;
+    flex-direction: column;
+}
+#pages-footer .flex {
+    display: flex;
+    justify-content: space-between;
+}
+.lien-footer , .reseaux {
+    margin-top: 50px;
+    margin-right: 70px;
+    padding: 20px;
+}
+.flex p {
+    font-size: 22px;
+    letter-spacing: 28%;
+    padding: 20px 0;
+}
+.lien-footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+}
+.reseaux img {
+    padding: 0 10px;
+}
+.font ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.font a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.font li {
+    list-style: disc;
+}
+.font .special {
+    list-style: none;
+}
+.footer2 img {
+    padding-left: 100px;
+    padding-top: 150px;
+    padding-right: 100px;
+}
+.footer2 {
+    background-image: url('../Illustration/Logos/All pages/footer1.png');
+    background-repeat: no-repeat;
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
