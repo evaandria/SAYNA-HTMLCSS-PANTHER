@@ -35,11 +35,11 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
+/*design de la navigation*/
 .container {
     width: 80%;
     margin: 0 auto;
 }
-/*design de la navigation*/
 nav {
     display: flex;
     align-items: center;
@@ -62,16 +62,9 @@ ul {
     text-decoration: none;
 }
 /*design de la partie en tête*/
-header {
-    background-image: url();
-}
 .content {
-    display: flex;
-    justify-content: right;
-    flex-direction: column;
-    text-align: justify;
-    width: 60%;
-    padding: 100px 40px;
+    display: block;
+    padding-top: 150px;
 }
 .content p {
     padding: 20px 0;
@@ -81,6 +74,33 @@ header {
 .voirplus a {
     color: white;
 }
+.position {
+    display: flex;
+    justify-content: space-between;
+}
+.position img {
+    width: 100%;
+}
+/*design scroll*/
+.scroll a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 30px;
+    top: 300px;
+}
+.scroll img {
+    margin: 20px;
+}
+/*design du barre bleu*/
+#bande .parent {
+    display: flex;
+    justify-content: center;
+    background-color: #07338C;
+    height: 300px;
+}
+
 
 
 
