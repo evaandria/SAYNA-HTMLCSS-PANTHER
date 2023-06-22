@@ -108,6 +108,22 @@ ul {
     width: 100%
 }
 /*design scroll*/
+.scroll {
+    .left-bar {
+        border-left: 2px solid grey;
+        height: 460px;
+        position:absolute;
+        left: 30px;
+        top: 0;
+    }
+    .mini-left-bar {
+        border-left: 2px solid grey;
+        height: 285px;
+        position: absolute;
+        left: 60px;
+        top: 0;
+    }
+}
 .scroll a {
     display: flex;
     flex-direction: column;
@@ -117,7 +133,8 @@ ul {
     top: 300px;
 }
 .scroll img {
-    margin: 20px;
+    margin: 10px;
+    padding-left: 10px;
 }
 
 /*design du barre bleu*/
